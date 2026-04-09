@@ -1,16 +1,26 @@
-# React + Vite
+# Profit Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application for tracking daily delivery business profits, built with React, Vite, and Node.js/MongoDB.
 
-Currently, two official plugins are available:
+## Features
+- **Dashboard**: Visualize revenue, costs, and net profit trends over time
+- **Data History**: View and manage past delivery records
+- **Reporting**: Export detailed delivery reports to CSV
+- **Custom Time Filtering**: Analyze data daily, monthly, yearly, or custom date ranges.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- **Frontend**: React (Vite), Recharts, Lucide-React
+- **Backend**: Node.js, Express, Mongoose
+- **Database**: MongoDB
 
-## React Compiler
+## Running Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Start the application (Backend on 5000, Frontend on 5173):
+   ```bash
+   npm run dev
+   ```
